@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570863D12AB9C4A800CB8CAA /* ShipsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570863D02AB9C4A800CB8CAA /* ShipsCell.swift */; };
+		570863D42AB9C6CA00CB8CAA /* MapShipsFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570863D32AB9C6CA00CB8CAA /* MapShipsFooterView.swift */; };
+		570863D92AB9E8EA00CB8CAA /* DataSourceModelCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570863D82AB9E8EA00CB8CAA /* DataSourceModelCollectionView.swift */; };
+		570863DB2AB9F74200CB8CAA /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570863DA2AB9F74200CB8CAA /* PlayerCell.swift */; };
+		571FF26E2ACB93B100E36B8C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 571FF26D2ACB93B100E36B8C /* Lottie */; };
+		57272F302AC5E225006FC2B3 /* PlayersTableViewFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57272F2F2AC5E225006FC2B3 /* PlayersTableViewFooterView.swift */; };
+		57272F322AC5E619006FC2B3 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57272F312AC5E619006FC2B3 /* MainPageViewController.swift */; };
+		5734305C2AC22B5300353C3C /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5734305B2AC22B5300353C3C /* BattleViewController.swift */; };
+		5734305E2AC237CC00353C3C /* ErrorMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5734305D2AC237CC00353C3C /* ErrorMessageView.swift */; };
+		573D79802AD60585009BDE07 /* GameResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573D797F2AD60585009BDE07 /* GameResultsTableViewCell.swift */; };
+		573D79822AD60914009BDE07 /* GameResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573D79812AD60914009BDE07 /* GameResultsTableViewController.swift */; };
+		573D79842AD60ADE009BDE07 /* GameResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573D79832AD60ADE009BDE07 /* GameResultsViewModel.swift */; };
+		573D79862AD60B45009BDE07 /* DataSourceForGameResultsForViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573D79852AD60B45009BDE07 /* DataSourceForGameResultsForViewModel.swift */; };
+		57479C042AD9938300F01867 /* PlayerViewForMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57479C032AD9938300F01867 /* PlayerViewForMainPage.swift */; };
+		57479C062AD9AE4F00F01867 /* SettiingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57479C052AD9AE4F00F01867 /* SettiingsView.swift */; };
+		57479C0A2AD9DEB000F01867 /* MainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57479C092AD9DEB000F01867 /* MainPageViewModel.swift */; };
+		57479C0C2AD9EE4000F01867 /* SavedItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57479C0B2AD9EE4000F01867 /* SavedItemsTableViewController.swift */; };
+		57479C0E2AD9EEA200F01867 /* SavedItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57479C0D2AD9EEA200F01867 /* SavedItemsViewModel.swift */; };
+		57479C102AD9EF9800F01867 /* SavedItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57479C0F2AD9EF9800F01867 /* SavedItemCell.swift */; };
+		574813522AB9C30500CE9EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574813512AB9C30500CE9EE2 /* AppDelegate.swift */; };
+		574813542AB9C30500CE9EE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574813532AB9C30500CE9EE2 /* SceneDelegate.swift */; };
+		574813562AB9C30500CE9EE2 /* ShipMapConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574813552AB9C30500CE9EE2 /* ShipMapConfigurationViewController.swift */; };
+		574813592AB9C30500CE9EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574813572AB9C30500CE9EE2 /* Main.storyboard */; };
+		5748135B2AB9C30600CE9EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5748135A2AB9C30600CE9EE2 /* Assets.xcassets */; };
+		5748135E2AB9C30600CE9EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5748135C2AB9C30600CE9EE2 /* LaunchScreen.storyboard */; };
+		574813692AB9C37800CE9EE2 /* CellForMapAndShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574813682AB9C37800CE9EE2 /* CellForMapAndShips.swift */; };
+		5748136E2AB9C3B000CE9EE2 /* MapPlayerSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5748136D2AB9C3B000CE9EE2 /* MapPlayerSectionHeaderView.swift */; };
+		574813712AB9C3DC00CE9EE2 /* DecorationViewForMapAndShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574813702AB9C3DC00CE9EE2 /* DecorationViewForMapAndShips.swift */; };
+		5754D9A22AC9A11500BC46BB /* AdvertiserBrowserAndSessionsCloser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5754D9A12AC9A11500BC46BB /* AdvertiserBrowserAndSessionsCloser.swift */; };
+		5754D9A52AC9B5CC00BC46BB /* DataAboutPlayerSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5754D9A42AC9B5CC00BC46BB /* DataAboutPlayerSingleton.swift */; };
+		575B5EBB2AC4D9C200065601 /* DataSourceForPlayersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B5EBA2AC4D9C200065601 /* DataSourceForPlayersTableView.swift */; };
+		575B5EBF2AC4DAA900065601 /* CellForPlayersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B5EBE2AC4DAA900065601 /* CellForPlayersTableView.swift */; };
+		575B5EC12AC4E06100065601 /* ViewModelForPlayersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B5EC02AC4E06100065601 /* ViewModelForPlayersTableView.swift */; };
+		575B5EC32AC4F7E700065601 /* PlayersTableViewHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575B5EC22AC4F7E700065601 /* PlayersTableViewHeaderView.swift */; };
+		575D92A72AC4712600001951 /* InviteBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575D92A62AC4712600001951 /* InviteBannerView.swift */; };
+		57611F012AC49F370021220A /* MultiplayerConnectivityBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57611F002AC49F370021220A /* MultiplayerConnectivityBrowserViewController.swift */; };
+		578DBDEC2AE0166A00C060D3 /* UnitTestsForDataModelForShipsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBDEB2AE0166A00C060D3 /* UnitTestsForDataModelForShipsSection.swift */; };
+		578DBDF62AE01D9B00C060D3 /* UnitTestsForMapDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBDF52AE01D9B00C060D3 /* UnitTestsForMapDataModel.swift */; };
+		578DBDF82AE0251F00C060D3 /* UnitTestsForDataSourceForBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBDF72AE0251F00C060D3 /* UnitTestsForDataSourceForBattleViewController.swift */; };
+		578DBDFA2AE02D5500C060D3 /* UnitTestsForDataSourceForSavedItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBDF92AE02D5500C060D3 /* UnitTestsForDataSourceForSavedItemsViewController.swift */; };
+		578DBDFC2AE049CA00C060D3 /* UnitTestsForDataSourceForPlayersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBDFB2AE049CA00C060D3 /* UnitTestsForDataSourceForPlayersTableView.swift */; };
+		578DBDFE2AE055C900C060D3 /* UnitTestsForDataSourceForGameResultsForViewModelAndDecodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBDFD2AE055C900C060D3 /* UnitTestsForDataSourceForGameResultsForViewModelAndDecodeManager.swift */; };
+		578DBE002AE0589200C060D3 /* UnitTestsForMainPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBDFF2AE0589200C060D3 /* UnitTestsForMainPageViewModel.swift */; };
+		578DBE022AE081E200C060D3 /* UnitTestsForGameResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBE012AE081E200C060D3 /* UnitTestsForGameResultsViewModel.swift */; };
+		578DBE042AE085FC00C060D3 /* UnitTestsForSavedItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBE032AE085FC00C060D3 /* UnitTestsForSavedItemsViewModel.swift */; };
+		578DBE062AE08A5100C060D3 /* UnitTestsForViewModelForPlayersTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578DBE052AE08A5100C060D3 /* UnitTestsForViewModelForPlayersTableView.swift */; };
+		579FA4EF2AC727A20004D10A /* NetworkConnectionCheckerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579FA4EE2AC727A20004D10A /* NetworkConnectionCheckerManager.swift */; };
+		57A2ABC02AE15CE0000B8450 /* UnitTestsForViewModelForMapAndShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2ABBF2AE15CE0000B8450 /* UnitTestsForViewModelForMapAndShips.swift */; };
+		57A2ABC22AE17087000B8450 /* UnitTestsForViewModelForBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2ABC12AE17087000B8450 /* UnitTestsForViewModelForBattleViewController.swift */; };
+		57B81B9E2AD8266A008EC5FA /* LeavingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B81B9D2AD8266A008EC5FA /* LeavingView.swift */; };
+		57B81BB12AD84410008EC5FA /* AudioEffectsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B81BB02AD84410008EC5FA /* AudioEffectsManager.swift */; };
+		57BBD70B2ABC81510065664B /* ShipsSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBD70A2ABC81510065664B /* ShipsSectionHeader.swift */; };
+		57BBD72D2ABCBAD20065664B /* ViewModelForMapAndShips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBD72C2ABCBAD20065664B /* ViewModelForMapAndShips.swift */; };
+		57BBD72F2ABCE61E0065664B /* ImageViewWithShipIdetifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BBD72E2ABCE61E0065664B /* ImageViewWithShipIdetifier.swift */; };
+		57C84B4E2AC3450C00A66945 /* MultipeerConectivityServiceForMultiplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C84B4D2AC3450C00A66945 /* MultipeerConectivityServiceForMultiplayer.swift */; };
+		57CEF4B42AC2F92A006BB3CD /* ViewModelForBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CEF4B32AC2F92A006BB3CD /* ViewModelForBattleViewController.swift */; };
+		57CEF4B62AC2F956006BB3CD /* DataSourceForBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CEF4B52AC2F956006BB3CD /* DataSourceForBattleViewController.swift */; };
+		57CEF4B82AC312FF006BB3CD /* PlayerCellForBattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CEF4B72AC312FF006BB3CD /* PlayerCellForBattleViewController.swift */; };
+		57D249CA2AD203350021899B /* WinnerLoserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D249C92AD203350021899B /* WinnerLoserView.swift */; };
+		57E704002AD6D80600003AE1 /* SimpleKeychain in Frameworks */ = {isa = PBXBuildFile; productRef = 57E703FF2AD6D80600003AE1 /* SimpleKeychain */; };
+		57EF4FD52ABDE2AA0042DACD /* MapColumnOrRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EF4FD42ABDE2AA0042DACD /* MapColumnOrRowCell.swift */; };
+		57FE06212ADADEBB0023AE84 /* PlayerSetFirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FE06202ADADEBB0023AE84 /* PlayerSetFirstPageViewController.swift */; };
+		57FFAF392ADC3A8D009AC118 /* DataSourceForSavedItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFAF382ADC3A8D009AC118 /* DataSourceForSavedItemsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		578DBDED2AE0166A00C060D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574813462AB9C30500CE9EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5748134D2AB9C30500CE9EE2;
+			remoteInfo = "Sea Battle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		570863D02AB9C4A800CB8CAA /* ShipsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipsCell.swift; sourceTree = "<group>"; };
+		570863D32AB9C6CA00CB8CAA /* MapShipsFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapShipsFooterView.swift; sourceTree = "<group>"; };
+		570863D82AB9E8EA00CB8CAA /* DataSourceModelCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceModelCollectionView.swift; sourceTree = "<group>"; };
+		570863DA2AB9F74200CB8CAA /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		57272F2F2AC5E225006FC2B3 /* PlayersTableViewFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewFooterView.swift; sourceTree = "<group>"; };
+		57272F312AC5E619006FC2B3 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		5734305B2AC22B5300353C3C /* BattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+		5734305D2AC237CC00353C3C /* ErrorMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessageView.swift; sourceTree = "<group>"; };
+		573D797F2AD60585009BDE07 /* GameResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultsTableViewCell.swift; sourceTree = "<group>"; };
+		573D79812AD60914009BDE07 /* GameResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultsTableViewController.swift; sourceTree = "<group>"; };
+		573D79832AD60ADE009BDE07 /* GameResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameResultsViewModel.swift; sourceTree = "<group>"; };
+		573D79852AD60B45009BDE07 /* DataSourceForGameResultsForViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceForGameResultsForViewModel.swift; sourceTree = "<group>"; };
+		57479C032AD9938300F01867 /* PlayerViewForMainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewForMainPage.swift; sourceTree = "<group>"; };
+		57479C052AD9AE4F00F01867 /* SettiingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettiingsView.swift; sourceTree = "<group>"; };
+		57479C092AD9DEB000F01867 /* MainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewModel.swift; sourceTree = "<group>"; };
+		57479C0B2AD9EE4000F01867 /* SavedItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedItemsTableViewController.swift; sourceTree = "<group>"; };
+		57479C0D2AD9EEA200F01867 /* SavedItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedItemsViewModel.swift; sourceTree = "<group>"; };
+		57479C0F2AD9EF9800F01867 /* SavedItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedItemCell.swift; sourceTree = "<group>"; };
+		5748134E2AB9C30500CE9EE2 /* Sea Battle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sea Battle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		574813512AB9C30500CE9EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		574813532AB9C30500CE9EE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		574813552AB9C30500CE9EE2 /* ShipMapConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipMapConfigurationViewController.swift; sourceTree = "<group>"; };
+		574813582AB9C30500CE9EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5748135A2AB9C30600CE9EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5748135D2AB9C30600CE9EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5748135F2AB9C30600CE9EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574813682AB9C37800CE9EE2 /* CellForMapAndShips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForMapAndShips.swift; sourceTree = "<group>"; };
+		5748136D2AB9C3B000CE9EE2 /* MapPlayerSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPlayerSectionHeaderView.swift; sourceTree = "<group>"; };
+		574813702AB9C3DC00CE9EE2 /* DecorationViewForMapAndShips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorationViewForMapAndShips.swift; sourceTree = "<group>"; };
+		5754D9A12AC9A11500BC46BB /* AdvertiserBrowserAndSessionsCloser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiserBrowserAndSessionsCloser.swift; sourceTree = "<group>"; };
+		5754D9A42AC9B5CC00BC46BB /* DataAboutPlayerSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAboutPlayerSingleton.swift; sourceTree = "<group>"; };
+		575B5EBA2AC4D9C200065601 /* DataSourceForPlayersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceForPlayersTableView.swift; sourceTree = "<group>"; };
+		575B5EBE2AC4DAA900065601 /* CellForPlayersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForPlayersTableView.swift; sourceTree = "<group>"; };
+		575B5EC02AC4E06100065601 /* ViewModelForPlayersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelForPlayersTableView.swift; sourceTree = "<group>"; };
+		575B5EC22AC4F7E700065601 /* PlayersTableViewHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersTableViewHeaderView.swift; sourceTree = "<group>"; };
+		575D92A62AC4712600001951 /* InviteBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteBannerView.swift; sourceTree = "<group>"; };
+		57611F002AC49F370021220A /* MultiplayerConnectivityBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplayerConnectivityBrowserViewController.swift; sourceTree = "<group>"; };
+		578DBDE92AE0166A00C060D3 /* Sea Battle Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sea Battle Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		578DBDEB2AE0166A00C060D3 /* UnitTestsForDataModelForShipsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForDataModelForShipsSection.swift; sourceTree = "<group>"; };
+		578DBDF52AE01D9B00C060D3 /* UnitTestsForMapDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForMapDataModel.swift; sourceTree = "<group>"; };
+		578DBDF72AE0251F00C060D3 /* UnitTestsForDataSourceForBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForDataSourceForBattleViewController.swift; sourceTree = "<group>"; };
+		578DBDF92AE02D5500C060D3 /* UnitTestsForDataSourceForSavedItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForDataSourceForSavedItemsViewController.swift; sourceTree = "<group>"; };
+		578DBDFB2AE049CA00C060D3 /* UnitTestsForDataSourceForPlayersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForDataSourceForPlayersTableView.swift; sourceTree = "<group>"; };
+		578DBDFD2AE055C900C060D3 /* UnitTestsForDataSourceForGameResultsForViewModelAndDecodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForDataSourceForGameResultsForViewModelAndDecodeManager.swift; sourceTree = "<group>"; };
+		578DBDFF2AE0589200C060D3 /* UnitTestsForMainPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForMainPageViewModel.swift; sourceTree = "<group>"; };
+		578DBE012AE081E200C060D3 /* UnitTestsForGameResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForGameResultsViewModel.swift; sourceTree = "<group>"; };
+		578DBE032AE085FC00C060D3 /* UnitTestsForSavedItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForSavedItemsViewModel.swift; sourceTree = "<group>"; };
+		578DBE052AE08A5100C060D3 /* UnitTestsForViewModelForPlayersTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForViewModelForPlayersTableView.swift; sourceTree = "<group>"; };
+		579FA4EE2AC727A20004D10A /* NetworkConnectionCheckerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnectionCheckerManager.swift; sourceTree = "<group>"; };
+		57A2ABBF2AE15CE0000B8450 /* UnitTestsForViewModelForMapAndShips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForViewModelForMapAndShips.swift; sourceTree = "<group>"; };
+		57A2ABC12AE17087000B8450 /* UnitTestsForViewModelForBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestsForViewModelForBattleViewController.swift; sourceTree = "<group>"; };
+		57B81B9D2AD8266A008EC5FA /* LeavingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeavingView.swift; sourceTree = "<group>"; };
+		57B81BB02AD84410008EC5FA /* AudioEffectsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEffectsManager.swift; sourceTree = "<group>"; };
+		57BBD70A2ABC81510065664B /* ShipsSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipsSectionHeader.swift; sourceTree = "<group>"; };
+		57BBD72C2ABCBAD20065664B /* ViewModelForMapAndShips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelForMapAndShips.swift; sourceTree = "<group>"; };
+		57BBD72E2ABCE61E0065664B /* ImageViewWithShipIdetifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewWithShipIdetifier.swift; sourceTree = "<group>"; };
+		57C84B4D2AC3450C00A66945 /* MultipeerConectivityServiceForMultiplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerConectivityServiceForMultiplayer.swift; sourceTree = "<group>"; };
+		57CEF4B32AC2F92A006BB3CD /* ViewModelForBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelForBattleViewController.swift; sourceTree = "<group>"; };
+		57CEF4B52AC2F956006BB3CD /* DataSourceForBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceForBattleViewController.swift; sourceTree = "<group>"; };
+		57CEF4B72AC312FF006BB3CD /* PlayerCellForBattleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCellForBattleViewController.swift; sourceTree = "<group>"; };
+		57D249C92AD203350021899B /* WinnerLoserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerLoserView.swift; sourceTree = "<group>"; };
+		57EF4FD42ABDE2AA0042DACD /* MapColumnOrRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapColumnOrRowCell.swift; sourceTree = "<group>"; };
+		57FE06202ADADEBB0023AE84 /* PlayerSetFirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerSetFirstPageViewController.swift; sourceTree = "<group>"; };
+		57FFAF382ADC3A8D009AC118 /* DataSourceForSavedItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceForSavedItemsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5748134B2AB9C30500CE9EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E704002AD6D80600003AE1 /* SimpleKeychain in Frameworks */,
+				571FF26E2ACB93B100E36B8C /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578DBDE62AE0166A00C060D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		570863D22AB9C6BA00CB8CAA /* FooterViews */ = {
+			isa = PBXGroup;
+			children = (
+				570863D32AB9C6CA00CB8CAA /* MapShipsFooterView.swift */,
+				57272F2F2AC5E225006FC2B3 /* PlayersTableViewFooterView.swift */,
+			);
+			path = FooterViews;
+			sourceTree = "<group>";
+		};
+		570863D72AB9E8D600CB8CAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				570863D82AB9E8EA00CB8CAA /* DataSourceModelCollectionView.swift */,
+				57CEF4B52AC2F956006BB3CD /* DataSourceForBattleViewController.swift */,
+				575B5EBA2AC4D9C200065601 /* DataSourceForPlayersTableView.swift */,
+				573D79852AD60B45009BDE07 /* DataSourceForGameResultsForViewModel.swift */,
+				57FFAF382ADC3A8D009AC118 /* DataSourceForSavedItemsViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		574813452AB9C30500CE9EE2 = {
+			isa = PBXGroup;
+			children = (
+				574813512AB9C30500CE9EE2 /* AppDelegate.swift */,
+				574813532AB9C30500CE9EE2 /* SceneDelegate.swift */,
+				5754D9A32AC9B3A700BC46BB /* Singletons */,
+				574813502AB9C30500CE9EE2 /* Sea Battle */,
+				578DBDEA2AE0166A00C060D3 /* Sea Battle Tests */,
+				5748134F2AB9C30500CE9EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5748134F2AB9C30500CE9EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5748134E2AB9C30500CE9EE2 /* Sea Battle.app */,
+				578DBDE92AE0166A00C060D3 /* Sea Battle Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574813502AB9C30500CE9EE2 /* Sea Battle */ = {
+			isa = PBXGroup;
+			children = (
+				570863D72AB9E8D600CB8CAA /* Model */,
+				574813652AB9C30C00CE9EE2 /* View */,
+				57BBD7042ABC6CC70065664B /* ViewModel */,
+				574813572AB9C30500CE9EE2 /* Main.storyboard */,
+				5748135A2AB9C30600CE9EE2 /* Assets.xcassets */,
+				5748135C2AB9C30600CE9EE2 /* LaunchScreen.storyboard */,
+				5748135F2AB9C30600CE9EE2 /* Info.plist */,
+			);
+			path = "Sea Battle";
+			sourceTree = "<group>";
+		};
+		574813652AB9C30C00CE9EE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57BBD72E2ABCE61E0065664B /* ImageViewWithShipIdetifier.swift */,
+				5734305D2AC237CC00353C3C /* ErrorMessageView.swift */,
+				575D92A62AC4712600001951 /* InviteBannerView.swift */,
+				57D249C92AD203350021899B /* WinnerLoserView.swift */,
+				57B81B9D2AD8266A008EC5FA /* LeavingView.swift */,
+				57479C032AD9938300F01867 /* PlayerViewForMainPage.swift */,
+				57479C052AD9AE4F00F01867 /* SettiingsView.swift */,
+				570863D22AB9C6BA00CB8CAA /* FooterViews */,
+				5748136F2AB9C3CB00CE9EE2 /* DecorationViews */,
+				5748136C2AB9C3A300CE9EE2 /* HeaderViews */,
+				5748136B2AB9C39C00CE9EE2 /* Controllers */,
+				5748136A2AB9C39500CE9EE2 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5748136A2AB9C39500CE9EE2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				574813682AB9C37800CE9EE2 /* CellForMapAndShips.swift */,
+				570863D02AB9C4A800CB8CAA /* ShipsCell.swift */,
+				570863DA2AB9F74200CB8CAA /* PlayerCell.swift */,
+				57EF4FD42ABDE2AA0042DACD /* MapColumnOrRowCell.swift */,
+				57CEF4B72AC312FF006BB3CD /* PlayerCellForBattleViewController.swift */,
+				575B5EBE2AC4DAA900065601 /* CellForPlayersTableView.swift */,
+				573D797F2AD60585009BDE07 /* GameResultsTableViewCell.swift */,
+				57479C0F2AD9EF9800F01867 /* SavedItemCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5748136B2AB9C39C00CE9EE2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57FE06222ADAEB2C0023AE84 /* MVC */,
+				57272F312AC5E619006FC2B3 /* MainPageViewController.swift */,
+				574813552AB9C30500CE9EE2 /* ShipMapConfigurationViewController.swift */,
+				5734305B2AC22B5300353C3C /* BattleViewController.swift */,
+				57611F002AC49F370021220A /* MultiplayerConnectivityBrowserViewController.swift */,
+				573D79812AD60914009BDE07 /* GameResultsTableViewController.swift */,
+				57479C0B2AD9EE4000F01867 /* SavedItemsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5748136C2AB9C3A300CE9EE2 /* HeaderViews */ = {
+			isa = PBXGroup;
+			children = (
+				5748136D2AB9C3B000CE9EE2 /* MapPlayerSectionHeaderView.swift */,
+				57BBD70A2ABC81510065664B /* ShipsSectionHeader.swift */,
+				575B5EC22AC4F7E700065601 /* PlayersTableViewHeaderView.swift */,
+			);
+			path = HeaderViews;
+			sourceTree = "<group>";
+		};
+		5748136F2AB9C3CB00CE9EE2 /* DecorationViews */ = {
+			isa = PBXGroup;
+			children = (
+				574813702AB9C3DC00CE9EE2 /* DecorationViewForMapAndShips.swift */,
+			);
+			path = DecorationViews;
+			sourceTree = "<group>";
+		};
+		5754D9A32AC9B3A700BC46BB /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				5754D9A12AC9A11500BC46BB /* AdvertiserBrowserAndSessionsCloser.swift */,
+				5754D9A42AC9B5CC00BC46BB /* DataAboutPlayerSingleton.swift */,
+				57B81BB02AD84410008EC5FA /* AudioEffectsManager.swift */,
+			);
+			path = Singletons;
+			sourceTree = "<group>";
+		};
+		5754D9A82AC9FF7A00BC46BB /* ConnectionManagers */ = {
+			isa = PBXGroup;
+			children = (
+				57C84B4D2AC3450C00A66945 /* MultipeerConectivityServiceForMultiplayer.swift */,
+				579FA4EE2AC727A20004D10A /* NetworkConnectionCheckerManager.swift */,
+			);
+			path = ConnectionManagers;
+			sourceTree = "<group>";
+		};
+		578DBDEA2AE0166A00C060D3 /* Sea Battle Tests */ = {
+			isa = PBXGroup;
+			children = (
+				578DBDEB2AE0166A00C060D3 /* UnitTestsForDataModelForShipsSection.swift */,
+				578DBDF52AE01D9B00C060D3 /* UnitTestsForMapDataModel.swift */,
+				578DBDF72AE0251F00C060D3 /* UnitTestsForDataSourceForBattleViewController.swift */,
+				578DBDFB2AE049CA00C060D3 /* UnitTestsForDataSourceForPlayersTableView.swift */,
+				578DBDF92AE02D5500C060D3 /* UnitTestsForDataSourceForSavedItemsViewController.swift */,
+				578DBDFD2AE055C900C060D3 /* UnitTestsForDataSourceForGameResultsForViewModelAndDecodeManager.swift */,
+				578DBDFF2AE0589200C060D3 /* UnitTestsForMainPageViewModel.swift */,
+				578DBE012AE081E200C060D3 /* UnitTestsForGameResultsViewModel.swift */,
+				578DBE032AE085FC00C060D3 /* UnitTestsForSavedItemsViewModel.swift */,
+				578DBE052AE08A5100C060D3 /* UnitTestsForViewModelForPlayersTableView.swift */,
+				57A2ABBF2AE15CE0000B8450 /* UnitTestsForViewModelForMapAndShips.swift */,
+				57A2ABC12AE17087000B8450 /* UnitTestsForViewModelForBattleViewController.swift */,
+			);
+			path = "Sea Battle Tests";
+			sourceTree = "<group>";
+		};
+		57BBD7042ABC6CC70065664B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				57479C092AD9DEB000F01867 /* MainPageViewModel.swift */,
+				57BBD72C2ABCBAD20065664B /* ViewModelForMapAndShips.swift */,
+				57CEF4B32AC2F92A006BB3CD /* ViewModelForBattleViewController.swift */,
+				575B5EC02AC4E06100065601 /* ViewModelForPlayersTableView.swift */,
+				573D79832AD60ADE009BDE07 /* GameResultsViewModel.swift */,
+				57479C0D2AD9EEA200F01867 /* SavedItemsViewModel.swift */,
+				5754D9A82AC9FF7A00BC46BB /* ConnectionManagers */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		57FE06222ADAEB2C0023AE84 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				57FE06202ADADEBB0023AE84 /* PlayerSetFirstPageViewController.swift */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5748134D2AB9C30500CE9EE2 /* Sea Battle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574813622AB9C30600CE9EE2 /* Build configuration list for PBXNativeTarget "Sea Battle" */;
+			buildPhases = (
+				5748134A2AB9C30500CE9EE2 /* Sources */,
+				5748134B2AB9C30500CE9EE2 /* Frameworks */,
+				5748134C2AB9C30500CE9EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sea Battle";
+			packageProductDependencies = (
+				571FF26D2ACB93B100E36B8C /* Lottie */,
+				57E703FF2AD6D80600003AE1 /* SimpleKeychain */,
+			);
+			productName = "Sea Battle";
+			productReference = 5748134E2AB9C30500CE9EE2 /* Sea Battle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		578DBDE82AE0166A00C060D3 /* Sea Battle Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 578DBDEF2AE0166A00C060D3 /* Build configuration list for PBXNativeTarget "Sea Battle Tests" */;
+			buildPhases = (
+				578DBDE52AE0166A00C060D3 /* Sources */,
+				578DBDE62AE0166A00C060D3 /* Frameworks */,
+				578DBDE72AE0166A00C060D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				578DBDEE2AE0166A00C060D3 /* PBXTargetDependency */,
+			);
+			name = "Sea Battle Tests";
+			productName = "Sea Battle Tests";
+			productReference = 578DBDE92AE0166A00C060D3 /* Sea Battle Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		574813462AB9C30500CE9EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5748134D2AB9C30500CE9EE2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					578DBDE82AE0166A00C060D3 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5748134D2AB9C30500CE9EE2;
+					};
+				};
+			};
+			buildConfigurationList = 574813492AB9C30500CE9EE2 /* Build configuration list for PBXProject "Sea Battle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 574813452AB9C30500CE9EE2;
+			packageReferences = (
+				571FF26C2ACB93B100E36B8C /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				57E703FE2AD6D80600003AE1 /* XCRemoteSwiftPackageReference "SimpleKeychain" */,
+			);
+			productRefGroup = 5748134F2AB9C30500CE9EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5748134D2AB9C30500CE9EE2 /* Sea Battle */,
+				578DBDE82AE0166A00C060D3 /* Sea Battle Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5748134C2AB9C30500CE9EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5748135E2AB9C30600CE9EE2 /* LaunchScreen.storyboard in Resources */,
+				5748135B2AB9C30600CE9EE2 /* Assets.xcassets in Resources */,
+				574813592AB9C30500CE9EE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578DBDE72AE0166A00C060D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5748134A2AB9C30500CE9EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5748136E2AB9C3B000CE9EE2 /* MapPlayerSectionHeaderView.swift in Sources */,
+				575D92A72AC4712600001951 /* InviteBannerView.swift in Sources */,
+				57CEF4B62AC2F956006BB3CD /* DataSourceForBattleViewController.swift in Sources */,
+				575B5EC12AC4E06100065601 /* ViewModelForPlayersTableView.swift in Sources */,
+				573D79802AD60585009BDE07 /* GameResultsTableViewCell.swift in Sources */,
+				573D79822AD60914009BDE07 /* GameResultsTableViewController.swift in Sources */,
+				57BBD70B2ABC81510065664B /* ShipsSectionHeader.swift in Sources */,
+				57BBD72F2ABCE61E0065664B /* ImageViewWithShipIdetifier.swift in Sources */,
+				574813712AB9C3DC00CE9EE2 /* DecorationViewForMapAndShips.swift in Sources */,
+				57EF4FD52ABDE2AA0042DACD /* MapColumnOrRowCell.swift in Sources */,
+				57272F322AC5E619006FC2B3 /* MainPageViewController.swift in Sources */,
+				570863D42AB9C6CA00CB8CAA /* MapShipsFooterView.swift in Sources */,
+				57CEF4B82AC312FF006BB3CD /* PlayerCellForBattleViewController.swift in Sources */,
+				57FE06212ADADEBB0023AE84 /* PlayerSetFirstPageViewController.swift in Sources */,
+				57B81B9E2AD8266A008EC5FA /* LeavingView.swift in Sources */,
+				574813562AB9C30500CE9EE2 /* ShipMapConfigurationViewController.swift in Sources */,
+				570863DB2AB9F74200CB8CAA /* PlayerCell.swift in Sources */,
+				57479C0A2AD9DEB000F01867 /* MainPageViewModel.swift in Sources */,
+				570863D92AB9E8EA00CB8CAA /* DataSourceModelCollectionView.swift in Sources */,
+				5734305C2AC22B5300353C3C /* BattleViewController.swift in Sources */,
+				579FA4EF2AC727A20004D10A /* NetworkConnectionCheckerManager.swift in Sources */,
+				575B5EBB2AC4D9C200065601 /* DataSourceForPlayersTableView.swift in Sources */,
+				5754D9A52AC9B5CC00BC46BB /* DataAboutPlayerSingleton.swift in Sources */,
+				57611F012AC49F370021220A /* MultiplayerConnectivityBrowserViewController.swift in Sources */,
+				57CEF4B42AC2F92A006BB3CD /* ViewModelForBattleViewController.swift in Sources */,
+				57479C0C2AD9EE4000F01867 /* SavedItemsTableViewController.swift in Sources */,
+				57B81BB12AD84410008EC5FA /* AudioEffectsManager.swift in Sources */,
+				574813692AB9C37800CE9EE2 /* CellForMapAndShips.swift in Sources */,
+				573D79862AD60B45009BDE07 /* DataSourceForGameResultsForViewModel.swift in Sources */,
+				57479C102AD9EF9800F01867 /* SavedItemCell.swift in Sources */,
+				57272F302AC5E225006FC2B3 /* PlayersTableViewFooterView.swift in Sources */,
+				57479C062AD9AE4F00F01867 /* SettiingsView.swift in Sources */,
+				575B5EBF2AC4DAA900065601 /* CellForPlayersTableView.swift in Sources */,
+				57C84B4E2AC3450C00A66945 /* MultipeerConectivityServiceForMultiplayer.swift in Sources */,
+				5734305E2AC237CC00353C3C /* ErrorMessageView.swift in Sources */,
+				574813522AB9C30500CE9EE2 /* AppDelegate.swift in Sources */,
+				57FFAF392ADC3A8D009AC118 /* DataSourceForSavedItemsViewController.swift in Sources */,
+				57479C042AD9938300F01867 /* PlayerViewForMainPage.swift in Sources */,
+				57479C0E2AD9EEA200F01867 /* SavedItemsViewModel.swift in Sources */,
+				570863D12AB9C4A800CB8CAA /* ShipsCell.swift in Sources */,
+				575B5EC32AC4F7E700065601 /* PlayersTableViewHeaderView.swift in Sources */,
+				57D249CA2AD203350021899B /* WinnerLoserView.swift in Sources */,
+				573D79842AD60ADE009BDE07 /* GameResultsViewModel.swift in Sources */,
+				5754D9A22AC9A11500BC46BB /* AdvertiserBrowserAndSessionsCloser.swift in Sources */,
+				574813542AB9C30500CE9EE2 /* SceneDelegate.swift in Sources */,
+				57BBD72D2ABCBAD20065664B /* ViewModelForMapAndShips.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		578DBDE52AE0166A00C060D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578DBDF82AE0251F00C060D3 /* UnitTestsForDataSourceForBattleViewController.swift in Sources */,
+				578DBDF62AE01D9B00C060D3 /* UnitTestsForMapDataModel.swift in Sources */,
+				578DBDFC2AE049CA00C060D3 /* UnitTestsForDataSourceForPlayersTableView.swift in Sources */,
+				578DBE062AE08A5100C060D3 /* UnitTestsForViewModelForPlayersTableView.swift in Sources */,
+				57A2ABC02AE15CE0000B8450 /* UnitTestsForViewModelForMapAndShips.swift in Sources */,
+				57A2ABC22AE17087000B8450 /* UnitTestsForViewModelForBattleViewController.swift in Sources */,
+				578DBE022AE081E200C060D3 /* UnitTestsForGameResultsViewModel.swift in Sources */,
+				578DBE042AE085FC00C060D3 /* UnitTestsForSavedItemsViewModel.swift in Sources */,
+				578DBE002AE0589200C060D3 /* UnitTestsForMainPageViewModel.swift in Sources */,
+				578DBDFA2AE02D5500C060D3 /* UnitTestsForDataSourceForSavedItemsViewController.swift in Sources */,
+				578DBDFE2AE055C900C060D3 /* UnitTestsForDataSourceForGameResultsForViewModelAndDecodeManager.swift in Sources */,
+				578DBDEC2AE0166A00C060D3 /* UnitTestsForDataModelForShipsSection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		578DBDEE2AE0166A00C060D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5748134D2AB9C30500CE9EE2 /* Sea Battle */;
+			targetProxy = 578DBDED2AE0166A00C060D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		574813572AB9C30500CE9EE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574813582AB9C30500CE9EE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5748135C2AB9C30600CE9EE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5748135D2AB9C30600CE9EE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		574813602AB9C30600CE9EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		574813612AB9C30600CE9EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574813632AB9C30600CE9EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sea Battle/Sea Battle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U88LND2HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sea Battle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AshotHovhannisyan.Sea-Battle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574813642AB9C30600CE9EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Sea Battle/Sea Battle.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2U88LND2HV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Sea Battle/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AshotHovhannisyan.Sea-Battle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		578DBDF02AE0166A00C060D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AshotHovhannisyan.Sea-Battle-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sea Battle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sea Battle";
+			};
+			name = Debug;
+		};
+		578DBDF12AE0166A00C060D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AshotHovhannisyan.Sea-Battle-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sea Battle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sea Battle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		574813492AB9C30500CE9EE2 /* Build configuration list for PBXProject "Sea Battle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574813602AB9C30600CE9EE2 /* Debug */,
+				574813612AB9C30600CE9EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574813622AB9C30600CE9EE2 /* Build configuration list for PBXNativeTarget "Sea Battle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574813632AB9C30600CE9EE2 /* Debug */,
+				574813642AB9C30600CE9EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		578DBDEF2AE0166A00C060D3 /* Build configuration list for PBXNativeTarget "Sea Battle Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578DBDF02AE0166A00C060D3 /* Debug */,
+				578DBDF12AE0166A00C060D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		571FF26C2ACB93B100E36B8C /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.3;
+			};
+		};
+		57E703FE2AD6D80600003AE1 /* XCRemoteSwiftPackageReference "SimpleKeychain" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/SimpleKeychain";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		571FF26D2ACB93B100E36B8C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 571FF26C2ACB93B100E36B8C /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		57E703FF2AD6D80600003AE1 /* SimpleKeychain */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57E703FE2AD6D80600003AE1 /* XCRemoteSwiftPackageReference "SimpleKeychain" */;
+			productName = SimpleKeychain;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 574813462AB9C30500CE9EE2 /* Project object */;
+}
